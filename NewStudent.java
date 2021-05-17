@@ -181,7 +181,7 @@ public class NewStudent extends javax.swing.JFrame {
           try{
               Connection con=ConnectionProvider.getCon();
               Statement st=con.createStatement();
-              st.executeUpdate("insert into student values('"+studentID+"','"+name+"','"+fathersName+"','"+courseName+"','"+branchName+"'");
+              st.executeUpdate("insert into student values('"+studentID+"','"+name+"','"+fathersName+"','"+courseName+"','"+branchName+"')");
               JOptionPane.showMessageDialog(null,"Successfully updated");
               setVisible(false);
               new NewStudent().setVisible(true);
@@ -250,4 +250,24 @@ public class NewStudent extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     // End of variables declaration//GEN-END:variables
+
+public int getstudentId (int studentID){
+    return studentID;
+    
+}
+public String getname (String name){
+    return name;
+    
+}
+public String getfathersName (String fathersName){
+    return fathersName;
+    
+}
+
+public String getcoursename (String coursename){
+    return coursename;
+}
+public String getbranchname (String branchname){
+    return branchname;
+}
 }

@@ -171,4 +171,21 @@ public class Issuebook extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
+public int getbookId (int bookID){
+    return bookID;
+    
 }
+public int getstudentId (int studentID){
+    return studentID;
+    
+}
+public int getissueDate (int issueDate){
+    return issueDate;
+    
+}
+public int getdueDate (int dueDate){
+    return dueDate;
+    
+}
+}
+

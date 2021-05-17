@@ -247,4 +247,12 @@ public class Returnbook extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     // End of variables declaration//GEN-END:variables
+public int getbookId (int bookID){
+    return bookID;
+    
+}
+public int getstudentId (int studentID){
+    return studentID;
+    
+}
 }

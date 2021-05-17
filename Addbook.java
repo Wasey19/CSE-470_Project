@@ -3,15 +3,21 @@ package LibraryManagementSystem;
 
 import java.sql.*;
 import Project.ConnectionProvider;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 public class Addbook extends javax.swing.JFrame {
 
     /**
-     * Creates new form Addbook
      */
     public Addbook() {
         initComponents();
     }
+
+   
+
+   
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -223,4 +229,35 @@ public class Addbook extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables
+
+    
+public int getbookId (int bookID){
+    return bookID;
+    
 }
+public String getname (String name){
+    return name;
+    
+}
+public String getpublisher (String publisher){
+    return publisher;
+    
+}
+public int getprice(int price){
+    return price;
+    }
+
+public int getpublisherYear(int publisherYear){
+    return publisherYear;
+    }
+
+}
+
+    
+    
+
+   
+
+    
+
+
